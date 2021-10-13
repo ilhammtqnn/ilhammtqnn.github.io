@@ -17,6 +17,7 @@
     --scroll-thumb-color:hsl(var(--hue-color), 12%, 80%);
     --scroll-hover-color:hsl(var(--hue-color), 12%, 76%);
 
+
     --body-font:'Roboto', sans-serif;
 
     --big-font-size:2rem;
@@ -864,10 +865,6 @@ img{
         border-radius: 1.5rem 1.5rem 0 0;
         transition: .3s;
 
-    }
-
-    .footer_title{
-        font-size: var(--h2-font-size) ;
     }
     
 }
