@@ -17,7 +17,6 @@
     --scroll-thumb-color:hsl(var(--hue-color), 12%, 80%);
     --scroll-hover-color:hsl(var(--hue-color), 12%, 76%);
 
-
     --body-font:'Roboto', sans-serif;
 
     --big-font-size:2rem;
@@ -866,6 +865,10 @@ img{
         transition: .3s;
 
     }
+
+    .footer_title{
+        font-size: var(--h2-font-size) ;
+    }
     
 }
 
@@ -1108,6 +1111,8 @@ img{
        border-radius: 1.8rem 1.8rem 0 0;
        box-shadow: 0 -2px 4px rgba(0, 0, 0, .15);
     }
+
+    
 }
 
 @media screen and (min-width : 1024px) {
