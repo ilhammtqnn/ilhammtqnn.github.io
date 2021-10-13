@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ilhammtqnn</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- <link rel="stylesheet" href="assets/css/swiper-bundle.min.css"> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style Color -->
+    <style>
+      .swiper-pagination-bullet-active {
+        background: var(--first-color);
+      }
+      .swiper-button-prev {
+        left: 0;
+      }
+      .swiper-button-next {
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">ilhammtqnn</a>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list grid">
+            <li class="nav_item">
+              <a href="#home" class="nav_link active-link">
+                <i class="uil uil-estate nav_icon"></i>
+                Beranda
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">
+                <i class="uil uil-user nav_icon"></i>
+                Profil
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#skills" class="nav_link">
+                <i class="uil uil-file-alt nav_icon"></i>
+                Skill
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#service" class="nav_link">
+                <i class="uil uil-book-alt nav_icon"></i>
+                Pendidikan
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#portofolio" class="nav_link">
+                <i class="uil uil-scenery nav_icon"></i>
+                Portofolio
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">
+                <i class="uil uil-message nav_icon"></i>
+                Kontak
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav_close" id="nav-close"></i>
+        </div>
+
+        <div class="nav_btn">
+          <!-- thema -->
+
+          <i class="uil uil-moon-eclipse change-theme" id="theme-btn"></i>
+
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <!-- home section -->
+      <section class="home section" id="home">
+        <div class="home_container container grid">
+          <div class="home_content grid">
+            <div class="home_social">
+              <a
+                href="https://www.linkedin.com/in/ilham-muttaqin-b94092160"
+                target="_blank"
+                class="home_social-icon"
+              >
+                <i class="uil uil-linkedin"></i>
+              </a>
+              <a
+                href="https://api.whatsapp.com/send?phone=6285156686271"
+                target="_blank"
+                class="home_social-icon"
+              >
+                <i class="uil uil-whatsapp"></i>
+              </a>
+              <a
+                href="tel:085156686271"
+                target="_blank"
+                class="home_social-icon"
+              >
+                <i class="uil uil-phone"></i>
+              </a>
+            </div>
+
+            <div class="home_img">
+              <svg
+                class="home_svg"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="m256 0c-141.163 0-256 114.837-256 256s114.837 256 256 256 256-114.837 256-256-114.837-256-256-256z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="m256 0c-141.163 0-256 114.837-256 256s114.837 256 256 256 256-114.837 256-256-114.837-256-256-256z"
+                  />
+                  <image
+                    class="home_svg-img"
+                    x="12"
+                    y="55"
+                    xlink:href="assets/img/profile.png"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="home_data">
+              <h1 class="home_title">ILHAM MUTTAQIN</h1>
+              <h3 class="home_subtitle">Student Of UNIS Tangerang</h3>
+              <p class="home_desc">
+                Skill in Design Website and network administrator
+              </p>
+              <a href="#contact" class="button button--flex">
+                Kontak Saya <i class="uil uil-message button_icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home_scroll">
+            <a href="#about" class="home_scroll-button button--flex">
+              <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+              <span class="home_scroll-name">Scroll kebawah</span>
+              <i class="uil uil-arrow-down home_scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about section" id="about">
+        <h2 class="section_title">ILHAMMTQNN</h2>
+        <span class="section_subtitle">Introduction my self</span>
+        <div class="about_container container grid">
+          <!-- <img src="" alt="" class="about_img"> -->
+          <div class="about_data">
+            <p class="about_desc">
+              My name is Ilham Muttaqin, I am a Computer Informatics Student of
+              the University Islam Syekh Yusuf. and I have a certificate of
+              Junior Network Administrator by Digital Talent Scholarship.
+            </p>
+
+            <p class="about_desc">
+              I'm having skill in design a website with Javascript languages &
+              Bootstrap. currently I'm studying library JavaScript React js.
+            </p>
+            <div class="about_info">
+              <div>
+                <span class="about_info-title">3</span>
+                <span class="about_info-name"
+                  >Project</span
+                >
+              </div>
+              <div>
+                <span class="about_info-title">1</span>
+                <span class="about_info-name"
+                  >Certificate</span
+                >
+              </div>
+              <div>
+                <span class="about_info-title">0</span>
+                <span class="about_info-name"
+                  >
+                  Experience</span
+                >
+              </div>
+            </div>
+
+            <div class="about_buttons">
+              <a
+                download=""
+                href="assets/pdf/cv_ilhammtqnn.pdf"
+                class="button button--flex"
+              >
+                Download myCV <i class="uil uil-download-alt button_icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+        <h2 class="section_title">My Skills</h2>
+        <span class="section_subtitle"> this is the menu for my skills</span>
+
+        <div class="skills_container container grid">
+          <div>
+            <div class="skills_content skills_open">
+              <div class="skills_header">
+                <i class="uil uil-palette skills_icon"></i>
+                <div>
+                  <h1 class="skills_title">Web Design</h1>
+                  <span class="skills_desc"></span>
+                </div>
+                <i class="uil uil-angle-down skills_arrow"></i>
+              </div>
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Figma</h3>
+                    <span class="skills_number">70%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percent skills_figma"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">HTML</h3>
+                    <span class="skills_number">80%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percent skills_html"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">CSS</h3>
+                    <span class="skills_number">75%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percent skills_css"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Javascript</h3>
+                    <span class="skills_number">65%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percent skills_js"></span>
+                  </div>
+                </div>
+              </div>
+           
+            </div>
+            <div>
+            <div class="skills_content skills_close">
+              <div class="skills_header">
+                <i class="uil uil-react skills_icon"></i>
+                <div>
+                  <h1 class="skills_title">Framework</h1>
+                  <span class="skills_desc"></span>
+                </div>
+                <i class="uil uil-angle-down skills_arrow"></i>
+              </div>
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Bootstrap</h3>
+                    <span class="skills_number">70%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percent skills_bootstrap"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Jquery</h3>
+                    <span class="skills_number">70%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percent skills_jquery"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Reactjs</h3>
+                    <span class="skills_number">75%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percent skills_react"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <div>
+            <div class="skills_content skills_close">
+              <div class="skills_header">
+                <i class="uil uil-database skills_icon"></i>
+                <div>
+                  <h1 class="skills_title">Database</h1>
+                  <span class="skills_desc"></span>
+                </div>
+                <i class="uil uil-angle-down skills_arrow"></i>
+              </div>
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Mysql</h3>
+                    <span class="skills_number">70%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percent skills_mysql"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">MongoDB</h3>
+                    <span class="skills_number">60%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percent skills_mongodb"></span>
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+
+            <div class="skills_content skills_close">
+              <div class="skills_header">
+                <i class="uil uil-programming-language skills_icon"></i>
+                <div>
+                  <h1 class="skills_title">programming language</h1>
+                  <span class="skills_desc"></span>
+                </div>
+                <i class="uil uil-angle-down skills_arrow"></i>
+              </div>
+              <div class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Java</h3>
+                    <span class="skills_number">60%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percent skills_php"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">PHP</h3>
+                    <span class="skills_number">70%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percent skills_java"></span>
+                  </div>
+                </div>
+                <div class="skills_data">
+                  <div class="skills_title">
+                    <h3 class="skills_name">Python</h3>
+                    <span class="skills_number">75%</span>
+                  </div>
+                  <div class="skills_bar">
+                    <span class="skills_percent skills_python"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+      </section>
+
+      <section class="almamater section" id="service">
+        <h2 class="section_title">Almamater</h2>
+        <span class="section_subtitle">2006-present</span>
+
+        <div class="almamater_container container">
+          <div class="almamater_tabs">
+            <div
+              class="almamater_button button--flex almamater_active"
+              data-target="#formal"
+            >
+              <i class="uil uil-graduation-cap almamater_icon"></i>
+              Formal Education
+            </div>
+            <div class="almamater_button button--flex" data-target="#nonformal">
+              <i class="uil uil-graduation-cap almamater_icon"></i>
+              Non Formal Education
+            </div>
+          </div>
+
+          <div class="almamater_section">
+            <!-- Formal -->
+            <div
+              class="almamater_content almamater_active"
+              data-content
+              id="formal"
+            >
+              <div class="almamater_data">
+                <div>
+                  <h3 class="almamater_title">Universitas Islam Syekh Yusuf</h3>
+                  <span class="almamater_subtitle">S1 Teknik Informatika</span>
+                  <div class="almamater_calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2018-Present
+                  </div>
+                </div>
+
+                <div>
+                  <span class="almamater_rounder"></span>
+                  <span class="almamater_line"></span>
+                </div>
+              </div>
+
+              <div class="almamater_data">
+                <div></div>
+
+                <div>
+                  <span class="almamater_rounder"></span>
+                  <!-- <span class="almamater_line"></span> -->
+                </div>
+
+                <div>
+                  <h3 class="almamater_title">SMK Bhakti Anindya</h3>
+                  <span class="almamater_subtitle"
+                    >Teknik Komputer & Jaringan</span
+                  >
+                  <div class="almamater_calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2014-2017
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Nonformal -->
+            <div class="almamater_content" data-content id="nonformal">
+              <div class="almamater_data">
+                <div>
+                  <h3 class="almamater_title">Digital Talent Scholarship</h3>
+                  <span class="almamater_subtitle">S1 Teknik Informatika</span>
+                  <div class="almamater_calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2018-Present
+                  </div>
+                </div>
+
+                <div>
+                  <span class="almamater_rounder"></span>
+                  <!-- <span class="almamater_line"></span> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="service section" id="service">
+        <h2 class="section_title">section</h2>
+        <span class="section_subtitle">web</span>
+
+        <div class="service_container container grid">
+          <div class="service_content">
+            <div>
+              <i class="uil uil-web-grid service_icon"></i>
+              <h3 class="service_title">
+                UI/UX <br />
+                Designer
+              </h3>
+            </div>
+
+            <span
+              class="
+                button button--flex
+                butto--small
+                button--link
+                service_button
+              "
+            >
+              Lihat Ini
+              <i class="uil uil-arrow-right button_icon"></i>
+            </span>
+
+            <div class="service_modal">
+              <div class="service_modal-content">
+                <h4 class="service_modal-title">
+                  UI/UX <br />
+                  Designer
+                </h4>
+                <i class="uil uil-times service_modal-close"></i>
+
+                <ul class="services_modal-services grid">
+                  <li class="service_modal-service">
+                    <i class="uil uil-check-circle service_model-icon"></i>
+                    <p>I Can Design for your website interface</p>
+                  </li>
+                  <li class="service_modal-service">
+                    <i class="uil uil-check-circle service_model-icon"></i>
+                    <p>I Can Design for your website interface</p>
+                  </li>
+                  <li class="service_modal-service">
+                    <i class="uil uil-check-circle service_model-icon"></i>
+                    <p>I Can Design for your website interface</p>
+                  </li>
+                  <li class="service_modal-service">
+                    <i class="uil uil-check-circle service_model-icon"></i>
+                    <p>I Can Design for your website interface</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="service_content">
+            <div>
+              <i class="uil uil-web-grid service_icon"></i>
+              <h3 class="service_title">
+                UI/UX <br />
+                Designer
+              </h3>
+            </div>
+
+            <span
+              class="
+                button button--flex
+                butto--small
+                button--link
+                service_button
+              "
+            >
+              Lihat Ini
+              <i class="uil uil-arrow-right button_icon"></i>
+            </span>
+
+            <div class="service_modal">
+              <div class="service_modal-content">
+                <h4 class="service_modal-title">
+                  UI/UX <br />
+                  Designer
+                </h4>
+                <i class="uil uil-times service_modal-close"></i>
+
+                <ul class="services_modal-services grid">
+                  <li class="service_modal-service">
+                    <i class="uil uil-check-circle service_model-icon"></i>
+                    <p>I Can Design for your website interface</p>
+                  </li>
+                  <li class="service_modal-service">
+                    <i class="uil uil-check-circle service_model-icon"></i>
+                    <p>I Can Design for your website interface</p>
+                  </li>
+                  <li class="service_modal-service">
+                    <i class="uil uil-check-circle service_model-icon"></i>
+                    <p>I Can Design for your website interface</p>
+                  </li>
+                  <li class="service_modal-service">
+                    <i class="uil uil-check-circle service_model-icon"></i>
+                    <p>I Can Design for your website interface</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="service_content">
+            <div>
+              <i class="uil uil-web-grid service_icon"></i>
+              <h3 class="service_title">
+                UI/UX <br />
+                Designer
+              </h3>
+            </div>
+
+            <span
+              class="
+                button button--flex
+                butto--small
+                button--link
+                service_button
+              "
+            >
+              Lihat Ini
+              <i class="uil uil-arrow-right button_icon"></i>
+            </span>
+
+            <div class="service_modal">
+              <div class="service_modal-content">
+                <h4 class="service_modal-title">
+                  UI/UX <br />
+                  Designer
+                </h4>
+                <i class="uil uil-times service_modal-close"></i>
+
+                <ul class="services_modal-services grid">
+                  <li class="service_modal-service">
+                    <i class="uil uil-check-circle service_model-icon"></i>
+                    <p>I Can Design for your website interface</p>
+                  </li>
+                  <li class="service_modal-service">
+                    <i class="uil uil-check-circle service_model-icon"></i>
+                    <p>I Can Design for your website interface</p>
+                  </li>
+                  <li class="service_modal-service">
+                    <i class="uil uil-check-circle service_model-icon"></i>
+                    <p>I Can Design for your website interface</p>
+                  </li>
+                  <li class="service_modal-service">
+                    <i class="uil uil-check-circle service_model-icon"></i>
+                    <p>I Can Design for your website interface</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="portofolio section" id="portofolio">
+        <h2 class="section_title">MyProject</h2>
+        <span class="section_subtitle">Javascript || Java || Python</span>
+
+        <div class="portofolio_container container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- project1 -->
+            <div class="portofolio_content grid swiper-slide">
+              <img
+                src="assets/img/portofolio1.png"
+                alt=""
+                class="portofolio_img"
+              />
+
+              <div class="portofolio_data">
+                <h3 class="portofolio_title">SPK Topsis With Java</h3>
+                <p class="portofolio_desc">
+                  Membantu untuk menentukan keputusan berdasarkan ranking
+                  terbaik
+                </p>
+                <a
+                  href="#"
+                  class="button button--flex button--small portofolio_button"
+                  >Demo</a
+                >
+              </div>
+            </div>
+            <!-- project2 -->
+            <div class="portofolio_content grid swiper-slide">
+              <img
+                src="assets/img/portofolio2.png"
+                alt=""
+                class="portofolio_img"
+              />
+
+              <div class="portofolio_data">
+                <h3 class="portofolio_title">To Do List App</h3>
+                <p class="portofolio_desc">
+                  This application is made using vanilla js and firebase cloud
+                  as the database.
+                </p>
+                <!-- <a href="#" class="button button--flex button--small portofolio_button">Demo</a> -->
+                <a
+                  href="#"
+                  target="_blank"
+                  class="button button--flex button--small portofolio_button"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+            <!-- project3 -->
+            <div class="portofolio_content grid swiper-slide">
+              <img
+                src="assets/img/portofolio3.png"
+                alt=""
+                class="portofolio_img"
+              />
+
+              <div class="portofolio_data">
+                <h3 class="portofolio_title">Face Detection OpenCV</h3>
+                <p class="portofolio_desc">
+                  The face detection program uses python and openCV as a
+                  library. There are 2 versions, There are 2 versions, that is
+                  using images and webcam videos.
+                </p>
+                <!-- <a href="#" class="button button--flex button--small portofolio_button">Demo</a> -->
+                <a
+                  href="https://github.com/ilhammuttaqin/facedetection"
+                  class="button button--flex button--small portofolio_button"
+                  target="_blank"
+                  >Source Code</a
+                >
+
+                <a
+                  href="https://www.youtube.com/watch?v=g_rNZa8ThV0&t=376s"
+                  class="button button--flex button--small portofolio_button"
+                  target="_blank"
+                  >Demo</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portofolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portofolio-icon"></i>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <h2 class="section_title">Kontak Saya</h2>
+        <span class="section_subtitle"></span>
+
+        <div class="contact_container container grid">
+          <div>
+            <div class="contact_information">
+              <i class="uil uil-phone contact_icon"></i>
+
+              <div>
+                <h3 class="contact_title">Nomor Telepon</h3>
+                <span class="contact_subtitle">085156686271</span>
+              </div>
+            </div>
+
+            <div class="contact_information">
+              <i class="uil uil-envelope contact_icon"></i>
+
+              <div>
+                <h3 class="contact_title">Email</h3>
+                <span class="contact_subtitle">ilhammuttaqins01@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact_information">
+              <i class="uil uil-whatsapp contact_icon"></i>
+
+              <div>
+                <h3 class="contact_title">Chat me</h3>
+                <span class="contact_subtitle"
+                  >by
+                  <a href="https://api.whatsapp.com/send?phone=6285156686271"
+                    ><b>whatsapp</b></a
+                  >
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact_form grid">
+            <div class="contact_inputs grid">
+              <div class="contact_content">
+                <label for="" class="contact_label">Nama Kamu</label>
+                <input type="text" class="contact_input" />
+              </div>
+              <div class="contact_content">
+                <label for="" class="contact_label">Email Kamu</label>
+                <input type="email" class="contact_input" />
+              </div>
+              <div class="contact_content">
+                <label for="" class="contact_label">Pesan</label>
+                <textarea
+                  name=""
+                  id=""
+                  cols="0"
+                  rows="7"
+                  class="contact_input"
+                ></textarea>
+              </div>
+
+              <div>
+                <a href="#" class="button button--flex">
+                  Kirim Pesan
+                  <i class="uil uil-message button_icon"></i>
+                </a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer_bg">
+        <div class="footer_container container grid">
+          <div>
+            <h2 class="footer_title">ILHAMMTQNN</h2>
+            <span class="footer_subtitle"
+              >Student of Unis Tangerang</span
+            >
+          </div>
+          <ul class="footer_links">
+            <li>
+              <a href="#service" class="footer_link">Pendidikan</a>
+            </li>
+            <li>
+              <a href="#portofolio" class="footer_link">Portofolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer_link">Kontak</a>
+            </li>
+          </ul>
+
+          <div class="footer_socials">
+            <a
+              href="https://www.facebook.com/ilham.muttaqin.334"
+              class="footer_social"
+              target="_blank"
+            >
+              <i class="uil uil-facebook"></i>
+            </a>
+            <a
+              href="https://youtube.com/channel/UCzuReH8hApkymxsI0GMhVRA"
+              class="footer_social"
+              target="_blank"
+            >
+              <i class="uil uil-youtube"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/ilhammtqnn"
+              target="_blank"
+              class="footer_social"
+            >
+              <i class="uil uil-instagram"></i>
+            </a>
+
+            <a
+              href="https://github.com/ilhammuttaqin"
+              target="_blank"
+              class="footer_social"
+            >
+              <i class="uil uil-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer_copyright">Copyright &copy; Ilhammtqnn 2021</p>
+      </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scrollup">
+      <i class="uil uil-arrow-up scroll_icon"></i>
+    </a>
+
+    <!-- Javascript Connector -->
+    <script src="assets/js/scripts.js"></script>
+    <!-- <script src="assets/js/swiper-bundle.min.js"></script> -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      let swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        keyboard: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>
