@@ -866,6 +866,10 @@ img{
         transition: .3s;
 
     }
+ 
+ .footer_title{
+  font-size: var(--h1-font-size);
+ }
     
 }
 
