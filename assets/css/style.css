@@ -336,6 +336,10 @@ img{
     color: var(--first-color-alt);
 }
 
+.kirim{
+    cursor:pointer;
+}
+
 .about_img{
     width: 200px;
     border-radius: .5rem;
