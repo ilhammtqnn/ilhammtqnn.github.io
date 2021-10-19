@@ -670,7 +670,7 @@
                 </p>
                 <!-- <a href="#" class="button button--flex button--small portofolio_button">Demo</a> -->
                 <a
-                  href="https://github.com/ilhammuttaqin/todo-list-js"
+                  href="#"
                   target="_blank"
                   class="button button--flex button--small portofolio_button"
                   >Source Code</a
@@ -758,21 +758,21 @@
             </div>
           </div>
 
-          <form action="" class="contact_form grid">
+          <form class="contact_form grid">
             <div class="contact_inputs grid">
               <div class="contact_content">
                 <label for="" class="contact_label">Nama Kamu</label>
-                <input type="text" class="contact_input" id="name" />
+                <input type="text" class="contact_input" id="nama" />
               </div>
               <div class="contact_content">
                 <label for="" class="contact_label">Email Kamu</label>
-                <input type="email" class="contact_input" id="email" />
+                <input type="email" class="contact_input" id="emails" />
               </div>
               <div class="contact_content">
-                <label for="" class="contact_label" id="comment">Pesan</label>
+                <label for="" class="contact_label">Pesan</label>
                 <textarea
                   name=""
-                  id=""
+                  id="comment"
                   cols="0"
                   rows="7"
                   class="contact_input"
@@ -780,7 +780,7 @@
               </div>
 
               <div>
-                <a  class="button button--flex" id="submit">
+                <a class="button button--flex kirim" id="submit">
                   Kirim Pesan
                   <i class="uil uil-message button_icon"></i>
                 </a>
@@ -860,6 +860,11 @@
     </a>
 
     <!-- Javascript Connector -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="assets/js/firebase.js"></script>
     <script src="assets/js/scripts.js"></script>
     <!-- <script src="assets/js/swiper-bundle.min.js"></script> -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -879,6 +884,6 @@
       });
     </script>
 
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
   </body>
 </html>
