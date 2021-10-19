@@ -154,3 +154,23 @@ themeBtn.addEventListener('click', ()=>{
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
+document.getElementById('submit').addEventListener('click',function(){
+    event.preventDefault();
+    let name = document.getElementById("nama");
+    let email = document.getElementById("emails");
+    let text = document.getElementById("comment");
+    let newItem = db.collection("contact").add({
+        name: name.value,
+        email: email.value,
+        text: text.value
+
+    });
+    Swal.fire(
+        'Komentar Kamu Berhasil Tersimpan',
+        'Terima Kasih Banyak',
+        'success'
+      )
+    name.value = ""; 
+    email.value = ""; 
+    text.value = ""; 
+})
